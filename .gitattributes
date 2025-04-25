@@ -1,0 +1,16 @@
+# Normalize all text files to use LF in repo, convert on checkout
+* text=auto
+
+# Force LF for Unix-related files (recommended)
+*.sh text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Force CRLF for Windows-only files if needed (optional)
+*.bat text eol=crlf
+
+#Forcing CRLF
